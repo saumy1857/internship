@@ -17,7 +17,7 @@ public class Palindrome {
        ch = name.charAt(i);
        str = ch + str;
     }
-     if(name.equals(str))
+     if(name.equalsIgnoreCase(str))
      {
          System.out.println("palidrone");
      }
